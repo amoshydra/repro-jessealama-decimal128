@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="importmap">
+    {
+      "imports": {
+        "decimal128": "./node_modules/decimal128/dist/decimal128.mjs"
+      }
+    }
+  </script>
+  <script type="module">
+    import { Decimal128 } from "decimal128";
+
+    const output = document.getElementById("output");
+    const println = s => output.textContent += `${s}\n`;
+
+    println(new Decimal128("1234567890123456789012345678901234").toString());
+    println(new Decimal128("9999999999999999999999999999999999").toString());
+    println(new Decimal128(".9999999999999999999999999999999999").toString());
+    println(new Decimal128("." + "1234567890".repeat(1)).toString());
+    println(new Decimal128("." + "1234567890".repeat(2)).toString());
+    println(new Decimal128("." + "1234567890".repeat(3)).toString());
+    println(new Decimal128("." + "1234567890".repeat(4)).toString());
+    println(new Decimal128("." + "1234567890".repeat(5)).toString());
+
+  </script>
+  <pre id="output"></pre>
+</body>
+</html>

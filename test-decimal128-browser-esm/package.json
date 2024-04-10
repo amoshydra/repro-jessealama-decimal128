@@ -1,0 +1,16 @@
+{
+  "name": "test-decimal128-browser-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decimal128": "../decimal128-11.2.0-alpha.1.tgz"
+  }
+}
