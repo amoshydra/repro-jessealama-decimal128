@@ -8,6 +8,6 @@
     "start": "node ."
   },
   "dependencies": {
-    "decimal128": "../decimal128-11.2.0-alpha.1.tgz"
+    "decimal128": "../decimal128-alpha.759f5b7-11.2.0.tgz"
   }
 }

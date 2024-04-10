@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-decimal128@../decimal128-11.2.0-alpha.1.tgz:
-  version "11.2.0-alpha.1"
-  resolved "../decimal128-11.2.0-alpha.1.tgz#8db43ec5a6e86c8200d6995527df7c5f7efe6c3b"
+"decimal128-alpha.759f5b7@../decimal128-alpha.759f5b7-11.2.0.tgz":
+  version "11.2.0"
+  resolved "../decimal128-alpha.759f5b7-11.2.0.tgz#ebf469fbe12c5aaabec44237936e142a82359572"
   dependencies:
     yarn "^1.22.21"
 
-"decimal128@..\\decimal128-v11.0.0-alpha.1.tgz":
-  version "11.0.0-alpha.1"
-  resolved "..\\decimal128-v11.0.0-alpha.1.tgz#50df3bb5798aafa2f44afd8521c612b56d06f29a"
+decimal128@../decimal128-11.2.0-alpha.1.tgz:
+  version "11.2.0-alpha.1"
+  resolved "../decimal128-11.2.0-alpha.1.tgz#8db43ec5a6e86c8200d6995527df7c5f7efe6c3b"
   dependencies:
     yarn "^1.22.21"
 
