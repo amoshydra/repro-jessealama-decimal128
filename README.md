@@ -4,6 +4,8 @@ This repository contains fixtures for https://github.com/jessealama/decimal128/p
 
 A packed tarball is included in the repository mirroring the PR changes in https://github.com/jessealama/decimal128/pull/93
 
+This repository is created for the sole purpose of PR jessealama/decimal128#93.
+
 ## How to run?
 
 1. Clone the project
