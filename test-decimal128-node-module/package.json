@@ -1,0 +1,13 @@
+{
+  "name": "test-decimal128-node-module",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "decimal128": "../decimal128-11.2.0-alpha.1.tgz"
+  }
+}
